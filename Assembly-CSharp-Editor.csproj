@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{CB6B1DEE-565F-D18C-87CC-C1D030D37446}</ProjectGuid>
+    <ProjectGuid>{9A4F75CD-264E-BA0B-0866-F2918F004EE6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -115,10 +115,10 @@
     <Compile Include="Assets\Wwise\Editor\WwiseWindows\TreeViewControl\TreeViewControl.cs" />
     <Compile Include="Assets\Wwise\Editor\WwiseWindows\TreeViewControl\TreeViewItem.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/mling/Desktop/RepoGab/OGD--Merge-attempt/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/mling/Desktop/MoleficentRepoFinale/Moleficient/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/mling/Desktop/RepoGab/OGD--Merge-attempt/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/mling/Desktop/MoleficentRepoFinale/Moleficient/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -408,23 +408,23 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{4C06A4F1-7746-A3A6-6145-5DFB0F25B237}</Project>
+      <Project>{B8D4B904-0615-4701-E0A3-2283A2AC8919}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{65FD6ABF-D8BB-44F7-F941-E4F029B3EC30}</Project>
+      <Project>{7EDA48E1-8498-7CD2-E364-125B8F0312FA}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
-      <Project>{95AD9E60-4C04-9337-2067-6CF5F5094A69}</Project>
+      <Project>{363E317B-9944-929D-45C0-9675CCDFE93B}</Project>
       <Name>Assembly-CSharp-Editor-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="NavMeshComponentsEditor.csproj">
-      <Project>{E25025D7-A33B-7636-B394-7177931BDBBA}</Project>
+      <Project>{F6F2B932-7A1B-03FB-163E-171B56A3E896}</Project>
       <Name>NavMeshComponentsEditor</Name>
     </ProjectReference>
     <ProjectReference Include="NavMeshComponents.csproj">
-      <Project>{393C74A6-E7DB-9356-221A-56F1574CC441}</Project>
+      <Project>{25826E64-14D5-C9CB-2F0F-33971E058F9F}</Project>
       <Name>NavMeshComponents</Name>
     </ProjectReference>
   </ItemGroup>

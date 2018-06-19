@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{4C06A4F1-7746-A3A6-6145-5DFB0F25B237}</ProjectGuid>
+    <ProjectGuid>{B8D4B904-0615-4701-E0A3-2283A2AC8919}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
@@ -110,10 +110,10 @@
     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/mling/Desktop/RepoGab/OGD--Merge-attempt/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/mling/Desktop/MoleficentRepoFinale/Moleficient/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/mling/Desktop/RepoGab/OGD--Merge-attempt/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/mling/Desktop/MoleficentRepoFinale/Moleficient/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -349,11 +349,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="NavMeshComponentsEditor.csproj">
-      <Project>{E25025D7-A33B-7636-B394-7177931BDBBA}</Project>
+      <Project>{F6F2B932-7A1B-03FB-163E-171B56A3E896}</Project>
       <Name>NavMeshComponentsEditor</Name>
     </ProjectReference>
     <ProjectReference Include="NavMeshComponents.csproj">
-      <Project>{393C74A6-E7DB-9356-221A-56F1574CC441}</Project>
+      <Project>{25826E64-14D5-C9CB-2F0F-33971E058F9F}</Project>
       <Name>NavMeshComponents</Name>
     </ProjectReference>
   </ItemGroup>

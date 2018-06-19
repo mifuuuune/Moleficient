@@ -1126,7 +1126,7 @@ MonoBehaviour:
   m_GamePlayerPrefab: {fileID: 1613227943946332, guid: 02d1843c37d7acc418d4dfa9d560abf5,
     type: 2}
   m_LobbyScene: Lobyy_GUI_2
-  m_PlayScene: GrahannyStage2
+  m_PlayScene: Game Level
   lobbySlots: []
   player1: {fileID: 1613227943946332, guid: 02d1843c37d7acc418d4dfa9d560abf5, type: 2}
   player2: {fileID: 1855534808144124, guid: dd5ef94774c5a6f49a8ead8e3754ffb7, type: 2}

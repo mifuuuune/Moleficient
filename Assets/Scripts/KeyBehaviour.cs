@@ -6,6 +6,7 @@ using UnityEngine.Networking;
 public class KeyBehaviour : NetworkBehaviour {
 
     public GameObject Door;
+    public GameObject portal;
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -18,10 +19,11 @@ public class KeyBehaviour : NetworkBehaviour {
     }
 
     [Command]
-    public void CmdDestroyKey() {
+    public void CmdDestroyKey() {       
         NetworkServer.UnSpawn(Door);
         Destroy(Door);
         NetworkServer.UnSpawn(this.gameObject);
         Destroy(this.gameObject);
+        portal.GetComponent<PortalBehaviour>().keyPickedUp();
     }
 }
