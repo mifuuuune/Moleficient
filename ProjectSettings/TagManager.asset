@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Wood
+  - Wall
+  - RedHook
+  - Boulder
+  - Knife
+  - Terrain
+  - Rock
+  - Plant
+  - Bean
+  - Sage
+  - Loin
+  - Eal
+  - Board
+  - LambWithSpring
+  - LambSpawner
+  - Grahanny
+  - Trampolino
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - Player
+  - Mole
+  - Ground
+  - Hen
+  - Chick
+  - Lamb
+  - Unwalkable
+  - Trampolino
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

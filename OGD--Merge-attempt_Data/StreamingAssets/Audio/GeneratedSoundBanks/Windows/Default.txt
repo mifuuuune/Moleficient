@@ -1,0 +1,122 @@
+Event	ID	Name			Wwise Object Path	Notes
+	521524025	Sforzo_lungo_fine			\Default Work Unit\Personaggi\Sir Bean\Sforzo_lungo_fine	
+	1419287282	Sforzo_lungo			\Default Work Unit\Personaggi\Sir Bean\Sforzo_lungo	
+	1777441883	Peto			\Default Work Unit\Personaggi\Sir Bean\Peto	
+	1904864132	Torce			\Default Work Unit\Ambiente\Torce	
+	2269520994	Ritrovamento_Chiave			\Default Work Unit\Ambiente\Ritrovamento_Chiave	
+	2765482635	Sforzo_breve			\Default Work Unit\Personaggi\Sir Bean\Sforzo_breve	
+	2948438990	Salti			\Default Work Unit\Personaggi\Salti	
+	3227794123	Passi			\Default Work Unit\Personaggi\Passi	
+	3347263127	Grano_Crescita			\Default Work Unit\Personaggi\Sir Eal\Grano\Grano_Crescita	
+	3541152385	Goccie_Acqua			\Default Work Unit\Ambiente\Goccie_Acqua	
+	3836892613	Boing_Pancia			\Default Work Unit\Personaggi\Sir Sage\Boing_Pancia	
+	3853951459	Ventosa			\Default Work Unit\Personaggi\Sir Eal\Ventosa	
+	3902314931	Atterraggi			\Default Work Unit\Personaggi\Atterraggi	
+	4100836337	Grano_Taglio			\Default Work Unit\Personaggi\Sir Eal\Grano\Grano_Taglio	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2948438990	Salti			\Default Work Unit\Salti	
+	3227794123	Passi			\Default Work Unit\Passi	
+
+Switch	ID	Name	Switch Group			Notes
+	1945043878	Sir_Bean	Salti			
+	2560587894	Sir_Eal	Salti			
+	2882406854	Sir_Loin	Salti			
+	3020547720	Sir_Sage	Salti			
+	1945043878	Sir_Bean	Passi			
+	2560587894	Sir_Eal	Passi			
+	2882406854	Sir_Loin	Passi			
+	3020547720	Sir_Sage	Passi			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	639444	SaltoEal_3	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\SaltoEal_3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Salti\Salti\Sir Eal\SaltoEal_3		26714
+	4356124	TaglioGrano_4	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\TaglioGrano_4_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Eal\Grano\Grano_Taglio\TaglioGrano_4		46144
+	6031828	SaltoBean_12	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\SaltoBean_12_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Salti\Salti\Sir Bean\SaltoBean_12		38928
+	8936933	vestitismall_11	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\vestitismall_11_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Passi\Passi\Sir Eal\vestitismall_11		39264
+	9569976	SaltoBean_4	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\SaltoBean_4_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Salti\Salti\Sir Bean\SaltoBean_4		23102
+	18602550	Boing_Si	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\Boing_Si_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Sage\Boing Pancia\Boing_Si		288064
+	31959708	vestitismall_5	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\vestitismall_5_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Passi\Passi\Sir Eal\vestitismall_5		19776
+	45269015	CrescitaGrano_3	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\CrescitaGrano_3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Eal\Grano\Grano_Crescita\CrescitaGrano_3		158784
+	78258501	Boing_Mi	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\Boing_Mi_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Sage\Boing Pancia\Boing_Mi		288064
+	95140214	Boing_Sol	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\Boing_Sol_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Sage\Boing Pancia\Boing_Sol		288064
+	97555634	SaltoBean_6	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\SaltoBean_6_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Salti\Salti\Sir Bean\SaltoBean_6		29212
+	120234958	Peto_8	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\Peto_8_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Bean\Peti\Peto_8		75570
+	128457977	SaltoEal_5	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\SaltoEal_5_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Salti\Salti\Sir Eal\SaltoEal_5		26158
+	134488737	SaltoBean_9	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\SaltoBean_9_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Salti\Salti\Sir Bean\SaltoBean_9		26298
+	138196465	SaltoEal_1	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\SaltoEal_1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Salti\Salti\Sir Eal\SaltoEal_1		25464
+	141032299	SirBeanStep_4	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\SirBeanStep_4_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Passi\Passi\Sir Bean\SirBeanStep_4		43584
+	157079243	vestitismall_6	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\vestitismall_6_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Passi\Passi\Sir Eal\vestitismall_6		29632
+	181779928	vestitismall_2	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\vestitismall_2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Passi\Passi\Sir Eal\vestitismall_2		37696
+	202093492	TaglioGrano_5	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\TaglioGrano_5_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Eal\Grano\Grano_Taglio\TaglioGrano_5		55360
+	210095071	SaltoEal_7	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\SaltoEal_7_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Salti\Salti\Sir Eal\SaltoEal_7		33098
+	210106006	vestitismall_12	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\vestitismall_12_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Passi\Passi\Sir Eal\vestitismall_12		28208
+	234416017	SaltoEal_4	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\SaltoEal_4_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Salti\Salti\Sir Eal\SaltoEal_4		32682
+	238765922	Sforzobreve_3	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\Sforzobreve_3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Bean\Sforzi\Sforzo_breve\Sforzobreve_3		31432
+	242620592	waterdrops_2	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\waterdrops_2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiente\Goccie Acqua\Goccie Acqua\waterdrops_2		613002
+	255815763	Peto_6	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\Peto_6_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Bean\Peti\Peto_6		64864
+	259979502	Sforzolungo_2	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\Sforzolungo_2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Bean\Sforzi\Sforzo_lungo\Sforzolungo_2		132758
+	276695556	SirBeanStep_6	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\SirBeanStep_6_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Passi\Passi\Sir Bean\SirBeanStep_6		37440
+	283061558	Key	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\Key_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiente\Ritrovamento Chiave\Key		1248064
+	284019861	Ventosa_5	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\Ventosa_5_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Eal\Ventosa\Ventosa_5		15808
+	296839226	SirBeanStep_3	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\SirBeanStep_3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Passi\Passi\Sir Bean\SirBeanStep_3		39488
+	352880509	SirBeanStep_8	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\SirBeanStep_8_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Passi\Passi\Sir Bean\SirBeanStep_8		36160
+	357163515	TaglioGrano_2	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\TaglioGrano_2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Eal\Grano\Grano_Taglio\TaglioGrano_2		54848
+	358608523	Peto_7	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\Peto_7_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Bean\Peti\Peto_7		82302
+	392033164	Sforzobreve_7	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\Sforzobreve_7_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Bean\Sforzi\Sforzo_breve\Sforzobreve_7		30320
+	400944916	Ventosa_4	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\Ventosa_4_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Eal\Ventosa\Ventosa_4		16768
+	441747057	TaglioGrano_6	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\TaglioGrano_6_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Eal\Grano\Grano_Taglio\TaglioGrano_6		59968
+	463854134	waterdrops_3	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\waterdrops_3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiente\Goccie Acqua\Goccie Acqua\waterdrops_3		475312
+	466776643	SaltoBean_8	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\SaltoBean_8_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Salti\Salti\Sir Bean\SaltoBean_8		26852
+	469478817	SaltoEal_6	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\SaltoEal_6_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Salti\Salti\Sir Eal\SaltoEal_6		22550
+	476602827	Sforzobreve_4	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\Sforzobreve_4_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Bean\Sforzi\Sforzo_breve\Sforzobreve_4		38926
+	481551283	SirBeanStep_7	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\SirBeanStep_7_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Passi\Passi\Sir Bean\SirBeanStep_7		36160
+	492172020	Sforzobreve_9	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\Sforzobreve_9_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Bean\Sforzi\Sforzo_breve\Sforzobreve_9		37538
+	494494314	SaltoEal_9	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\SaltoEal_9_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Salti\Salti\Sir Eal\SaltoEal_9		23106
+	501978033	Ventosa_1	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\Ventosa_1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Eal\Ventosa\Ventosa_1		21056
+	526801760	SaltoBean_11	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\SaltoBean_11_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Salti\Salti\Sir Bean\SaltoBean_11		38510
+	528194442	Peto_5	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\Peto_5_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Bean\Peti\Peto_5		47064
+	546506893	vestitismall_3	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\vestitismall_3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Passi\Passi\Sir Eal\vestitismall_3		37248
+	580153745	Sforzolungo_3	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\Sforzolungo_3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Bean\Sforzi\Sforzo_lungo\Sforzolungo_3		70296
+	582295508	CrescitaGrano_1	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\CrescitaGrano_1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Eal\Grano\Grano_Crescita\CrescitaGrano_1		152640
+	628303322	SirBeanStep_5	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\SirBeanStep_5_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Passi\Passi\Sir Bean\SirBeanStep_5		35648
+	647372250	SirBeanStep_1	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\SirBeanStep_1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Passi\Passi\Sir Bean\SirBeanStep_1		41664
+	658612406	Peto_1	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\Peto_1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Bean\Peti\Peto_1		37542
+	661653349	Ventosa_2	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\Ventosa_2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Eal\Ventosa\Ventosa_2		16768
+	665396447	Peto_4	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\Peto_4_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Bean\Peti\Peto_4		41148
+	690574691	CrescitaGrano_2	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\CrescitaGrano_2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Eal\Grano\Grano_Crescita\CrescitaGrano_2		147520
+	723385192	SaltoBean_7	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\SaltoBean_7_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Salti\Salti\Sir Bean\SaltoBean_7		30392
+	749995772	SaltoBean_5	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\SaltoBean_5_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Salti\Salti\Sir Bean\SaltoBean_5		27824
+	764065598	SaltoEal_2	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\SaltoEal_2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Salti\Salti\Sir Eal\SaltoEal_2		21718
+	774848335	SirBeanStep_9	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\SirBeanStep_9_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Passi\Passi\Sir Bean\SirBeanStep_9		42048
+	793137592	vestitismall_10	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\vestitismall_10_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Passi\Passi\Sir Eal\vestitismall_10		27840
+	795840598	TaglioGrano_3	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\TaglioGrano_3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Eal\Grano\Grano_Taglio\TaglioGrano_3		46656
+	798671257	Sforzolungo_4	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\Sforzolungo_4_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Bean\Sforzi\Sforzo_lungo\Sforzolungo_4		48920
+	811529927	SaltoBean_10	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\SaltoBean_10_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Salti\Salti\Sir Bean\SaltoBean_10		35874
+	815707751	Sforzolungo_1	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\Sforzolungo_1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Bean\Sforzi\Sforzo_lungo\Sforzolungo_1		99168
+	819973106	vestitismall_8	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\vestitismall_8_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Passi\Passi\Sir Eal\vestitismall_8		27840
+	846605642	Peto_2	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\Peto_2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Bean\Peti\Peto_2		45868
+	857711969	Ventosa_3	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\Ventosa_3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Eal\Ventosa\Ventosa_3		17152
+	864035563	Sforzolungo_6	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\Sforzolungo_6_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Bean\Sforzi\Sforzo_lungo\Sforzolungo_6		87508
+	875360986	SaltoEal_8	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\SaltoEal_8_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Salti\Salti\Sir Eal\SaltoEal_8		23660
+	886093577	Peto_3	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\Peto_3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Bean\Peti\Peto_3		51696
+	900334172	vestitismall_1	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\vestitismall_1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Passi\Passi\Sir Eal\vestitismall_1		30080
+	917982269	Sforzobreve_5	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\Sforzobreve_5_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Bean\Sforzi\Sforzo_breve\Sforzobreve_5		41844
+	918876417	Sforzobreve_2	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\Sforzobreve_2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Bean\Sforzi\Sforzo_breve\Sforzobreve_2		36984
+	925363965	vestitismall_7	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\vestitismall_7_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Passi\Passi\Sir Eal\vestitismall_7		33216
+	934763474	vestitismall_9	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\vestitismall_9_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Passi\Passi\Sir Eal\vestitismall_9		30080
+	935310855	Sforzobreve_8	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\Sforzobreve_8_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Bean\Sforzi\Sforzo_breve\Sforzobreve_8		33376
+	941749061	waterdrops_1	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\waterdrops_1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiente\Goccie Acqua\Goccie Acqua\waterdrops_1		628548
+	957445094	TaglioGrano_1	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\TaglioGrano_1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Eal\Grano\Grano_Taglio\TaglioGrano_1		52032
+	961636692	Sforzolungo_5	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\Sforzolungo_5_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Bean\Sforzi\Sforzo_lungo\Sforzolungo_5		171410
+	964141494	CrescitaGrano_4	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\CrescitaGrano_4_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Eal\Grano\Grano_Crescita\CrescitaGrano_4		154688
+	969816008	SaltoBean_3	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\SaltoBean_3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Salti\Salti\Sir Bean\SaltoBean_3		26298
+	981218214	Sforzobreve_1	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\Sforzobreve_1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Bean\Sforzi\Sforzo_breve\Sforzobreve_1		33792
+	990294658	Boing	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\Boing_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Sage\Boing Pancia\Boing		288064
+	1002321974	Sforzobreve_6	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\Sforzobreve_6_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Bean\Sforzi\Sforzo_breve\Sforzobreve_6		42812
+	1009219842	SaltoBean_2	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\SaltoBean_2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Salti\Salti\Sir Bean\SaltoBean_2		25118
+	1020264983	waterdrops_4	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\waterdrops_4_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiente\Goccie Acqua\Goccie Acqua\waterdrops_4		518618
+	1027739239	Peto_9	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\Peto_9_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Bean\Peti\Peto_9		58360
+	1049544355	SaltoBean_1	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\SaltoBean_1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Salti\Salti\Sir Bean\SaltoBean_1		24632
+	1052096845	Peto_10	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\Peto_10_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Sir Bean\Peti\Peto_10		53642
+	1072165408	vestitismall_4	C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\SFX\vestitismall_4_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Personaggi\Passi\Passi\Sir Eal\vestitismall_4		43072
+

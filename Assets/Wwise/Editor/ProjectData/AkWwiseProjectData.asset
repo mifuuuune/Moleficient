@@ -1,0 +1,777 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a51f0db278ecd94419c12b6f902a7b83, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - Guid: '{D1B85415-E077-4EFF-B2A0-892F3299E766}'
+    m_lastTimePart2: -1999254602
+    m_lastTimePsrt1: 1465308505
+    ParentPhysicalPath: 
+    PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    List: []
+  - Guid: '{463D666B-3CA8-4FA5-8B4A-5FEF12B883F6}'
+    m_lastTimePart2: -1999254603
+    m_lastTimePsrt1: -983417022
+    ParentPhysicalPath: 
+    PhysicalPath: Virtual Acoustics\Factory Reflect Acoustic Textures.wwu
+    List:
+    - Guid: f2532d2fccda8e408b8898b1b52a26d6
+      ID: -126323319
+      Name: Acoustic_Banner
+      Path: Factory Reflect Acoustic Textures\Textures\Acoustic_Banner
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Acoustic_Banner
+        ObjectType: 15
+    - Guid: 32c20a8be202de4ebeacfdd1a900e3ed
+      ID: 1873957695
+      Name: Anechoic
+      Path: Factory Reflect Acoustic Textures\Textures\Anechoic
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Anechoic
+        ObjectType: 15
+    - Guid: a9a586b004f2534ca838bdb18b18f6d6
+      ID: 504532776
+      Name: Brick
+      Path: Factory Reflect Acoustic Textures\Textures\Brick
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Brick
+        ObjectType: 15
+    - Guid: 8975223456dc604296c4b9f4b669092b
+      ID: -1882360988
+      Name: Carpet
+      Path: Factory Reflect Acoustic Textures\Textures\Carpet
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Carpet
+        ObjectType: 15
+    - Guid: 001cf85c9628e04aaf7c3080bdaba682
+      ID: 841620460
+      Name: Concrete
+      Path: Factory Reflect Acoustic Textures\Textures\Concrete
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Concrete
+        ObjectType: 15
+    - Guid: 19c9d2305f92434189063dbb3c4ae5e2
+      ID: -1099468548
+      Name: Cork_Tiles
+      Path: Factory Reflect Acoustic Textures\Textures\Cork_Tiles
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Cork_Tiles
+        ObjectType: 15
+    - Guid: 339ee6f8975c6849b508a1535f2d66e8
+      ID: -1366806192
+      Name: Curtains
+      Path: Factory Reflect Acoustic Textures\Textures\Curtains
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Curtains
+        ObjectType: 15
+    - Guid: f4e3a4680b4c8746a8b8a84db93dbc8f
+      ID: -624659732
+      Name: Drywall
+      Path: Factory Reflect Acoustic Textures\Textures\Drywall
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Drywall
+        ObjectType: 15
+    - Guid: 32d581836edbed4ea7a3bc7b0a0b8ba8
+      ID: 1970351858
+      Name: Fabric
+      Path: Factory Reflect Acoustic Textures\Textures\Fabric
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Fabric
+        ObjectType: 15
+    - Guid: 313793c51a00b44a98dd9b033a8c8eab
+      ID: 513139656
+      Name: Mountain
+      Path: Factory Reflect Acoustic Textures\Textures\Mountain
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Mountain
+        ObjectType: 15
+    - Guid: c4da82a82a13b747ba9db9907ba29cc0
+      ID: -1657378743
+      Name: Tile
+      Path: Factory Reflect Acoustic Textures\Textures\Tile
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Tile
+        ObjectType: 15
+    - Guid: 96bcff1fe76f9e48ba6c7c14a71391ae
+      ID: 2058049674
+      Name: Wood
+      Path: Factory Reflect Acoustic Textures\Textures\Wood
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Wood
+        ObjectType: 15
+    - Guid: e5d1857ba2c1634e9a13cec54b641adc
+      ID: -32444547
+      Name: Wood_Bright
+      Path: Factory Reflect Acoustic Textures\Textures\Wood_Bright
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Wood_Bright
+        ObjectType: 15
+    - Guid: 8e474652dac50c4ea0dec98d1479529a
+      ID: 1755085759
+      Name: Wood_Deep
+      Path: Factory Reflect Acoustic Textures\Textures\Wood_Deep
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Wood_Deep
+        ObjectType: 15
+  autoPopulateEnabled: 1
+  AuxBusWwu:
+  - Guid: '{1E5B5F18-D75B-4ED8-89F7-B7BD7D2E896C}'
+    m_lastTimePart2: -1999254602
+    m_lastTimePsrt1: 1465536717
+    ParentPhysicalPath: 
+    PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    List: []
+  BankWwu:
+  - Guid: '{6FF3CE92-D5A9-4F51-9CD0-A6FAF2EA8C16}'
+    m_lastTimePart2: -1999252958
+    m_lastTimePsrt1: 1367369355
+    ParentPhysicalPath: 
+    PhysicalPath: SoundBanks\Default Work Unit.wwu
+    List:
+    - Guid: 33ea0556e3104f40a90d07394b2c6d2c
+      ID: 782826392
+      Name: Default
+      Path: Default Work Unit\Default
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Default
+        ObjectType: 7
+  basePath: Audio\GeneratedSoundBanks
+  callbackManagerBufferSize: 4
+  CurrentPluginConfig: 
+  defaultPoolSize: 4096
+  EventWwu:
+  - Guid: '{77C677C5-BFD1-4DAC-95BC-872DE37B66DC}'
+    m_lastTimePart2: -1999252958
+    m_lastTimePsrt1: 1367324993
+    ParentPhysicalPath: 
+    PhysicalPath: Events\Default Work Unit.wwu
+    List:
+    - Guid: 154f81875135e94f8e6598427d09d01e
+      ID: 164592735
+      Name: Appiglio_Salsiccia
+      Path: Default Work Unit\Oggetti\Appiglio_Salsiccia
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Oggetti
+        ObjectType: 4
+      - ElementName: Appiglio_Salsiccia
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: fa5968a1c207e644b0439cac8f3a7235
+      ID: -392652365
+      Name: Atterraggi
+      Path: Default Work Unit\Personaggi\Atterraggi
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Personaggi
+        ObjectType: 4
+      - ElementName: Atterraggi
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 8c615d211bb2d74c898411ef1d2d320e
+      ID: -458074683
+      Name: Boing_Pancia
+      Path: Default Work Unit\Personaggi\Sir Sage\Boing_Pancia
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Personaggi
+        ObjectType: 4
+      - ElementName: Sir Sage
+        ObjectType: 4
+      - ElementName: Boing_Pancia
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 3273cb089997fa49a903c7c0548b72d8
+      ID: 532250220
+      Name: Capra
+      Path: Default Work Unit\Boss\Capra
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Boss
+        ObjectType: 4
+      - ElementName: Capra
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: de4d1d5c88b25f478c35be22886df643
+      ID: 2020394009
+      Name: Gallina
+      Path: Default Work Unit\Boss\Gallina
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Boss
+        ObjectType: 4
+      - ElementName: Gallina
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: ad4618611995a341814ea88362328be5
+      ID: -753814911
+      Name: Goccie_Acqua
+      Path: Default Work Unit\Ambiente\Goccie_Acqua
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ambiente
+        ObjectType: 4
+      - ElementName: Goccie_Acqua
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 75d0a9b509e8784e9b607cc8aebbf7e3
+      ID: -947704169
+      Name: Grano_Crescita
+      Path: Default Work Unit\Personaggi\Sir Eal\Grano\Grano_Crescita
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Personaggi
+        ObjectType: 4
+      - ElementName: Sir Eal
+        ObjectType: 4
+      - ElementName: Grano
+        ObjectType: 4
+      - ElementName: Grano_Crescita
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: ff31cb4b20c4594da46586138244cc0b
+      ID: -194130959
+      Name: Grano_Taglio
+      Path: Default Work Unit\Personaggi\Sir Eal\Grano\Grano_Taglio
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Personaggi
+        ObjectType: 4
+      - ElementName: Sir Eal
+        ObjectType: 4
+      - ElementName: Grano
+        ObjectType: 4
+      - ElementName: Grano_Taglio
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: d5e1708b683fae4e889a2d1e79e7b363
+      ID: -998859690
+      Name: Lancio_Coltello
+      Path: Default Work Unit\Personaggi\Sir Loin\Lancio_Coltello
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Personaggi
+        ObjectType: 4
+      - ElementName: Sir Loin
+        ObjectType: 4
+      - ElementName: Lancio_Coltello
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 5885f7ca0fd45e40bcd6bc9624857c89
+      ID: -609838092
+      Name: Lancio_Salsiccia
+      Path: Default Work Unit\Personaggi\Sir Sage\Lancio_Salsiccia
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Personaggi
+        ObjectType: 4
+      - ElementName: Sir Sage
+        ObjectType: 4
+      - ElementName: Lancio_Salsiccia
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 67d9efee88a5544695eb2cc9dcac4fb8
+      ID: 908081244
+      Name: Maiale
+      Path: Default Work Unit\Boss\Maiale
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Boss
+        ObjectType: 4
+      - ElementName: Maiale
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: b0494a5ff532124b83af3f390a611a28
+      ID: 243466192
+      Name: Masso_Piccolo
+      Path: Default Work Unit\Oggetti\Masso_Piccolo
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Oggetti
+        ObjectType: 4
+      - ElementName: Masso_Piccolo
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 95537df6abcf39409e7991d1f045489f
+      ID: -1067173173
+      Name: Passi
+      Path: Default Work Unit\Personaggi\Passi
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Personaggi
+        ObjectType: 4
+      - ElementName: Passi
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: b45b936b1671e740b352a8dedbd745ca
+      ID: 1777441883
+      Name: Peto
+      Path: Default Work Unit\Personaggi\Sir Bean\Peto
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Personaggi
+        ObjectType: 4
+      - ElementName: Sir Bean
+        ObjectType: 4
+      - ElementName: Peto
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 30fd77d1b8a35c438cdf931b83fbb2be
+      ID: 1919274785
+      Name: Piattaforme
+      Path: Default Work Unit\Oggetti\Piattaforme
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Oggetti
+        ObjectType: 4
+      - ElementName: Piattaforme
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 9be67e444bac1e4cb198dffde1d41123
+      ID: -1064286436
+      Name: Planata
+      Path: Default Work Unit\Personaggi\Sir Loin\Planata
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Personaggi
+        ObjectType: 4
+      - ElementName: Sir Loin
+        ObjectType: 4
+      - ElementName: Planata
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 2fc9e18a4375084d8abc80399c28964f
+      ID: 1983310388
+      Name: Portone
+      Path: Default Work Unit\Oggetti\Portone
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Oggetti
+        ObjectType: 4
+      - ElementName: Portone
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: d791368c91d37c4cae898d8e4381110b
+      ID: -2025446302
+      Name: Ritrovamento_Chiave
+      Path: Default Work Unit\Ambiente\Ritrovamento_Chiave
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ambiente
+        ObjectType: 4
+      - ElementName: Ritrovamento_Chiave
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: f52fcca867cb0049abd84f3c8f5b6c30
+      ID: -1346528306
+      Name: Salti
+      Path: Default Work Unit\Personaggi\Salti
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Personaggi
+        ObjectType: 4
+      - ElementName: Salti
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 65a6ee385ec7864886f514a01a4d3d61
+      ID: -1529484661
+      Name: Sforzo_breve
+      Path: Default Work Unit\Personaggi\Sir Bean\Sforzo_breve
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Personaggi
+        ObjectType: 4
+      - ElementName: Sir Bean
+        ObjectType: 4
+      - ElementName: Sforzo_breve
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: e4e4df289b0aef4788bcc441e8846bb5
+      ID: 1419287282
+      Name: Sforzo_lungo
+      Path: Default Work Unit\Personaggi\Sir Bean\Sforzo_lungo
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Personaggi
+        ObjectType: 4
+      - ElementName: Sir Bean
+        ObjectType: 4
+      - ElementName: Sforzo_lungo
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 00bcd582c6ea82428d2a26d754518294
+      ID: 521524025
+      Name: Sforzo_lungo_fine
+      Path: Default Work Unit\Personaggi\Sir Bean\Sforzo_lungo_fine
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Personaggi
+        ObjectType: 4
+      - ElementName: Sir Bean
+        ObjectType: 4
+      - ElementName: Sforzo_lungo_fine
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 94732ec0b511924b9bbdc41b4ae4430b
+      ID: 1904864132
+      Name: Torce
+      Path: Default Work Unit\Ambiente\Torce
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ambiente
+        ObjectType: 4
+      - ElementName: Torce
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 5a2ee2a87cf4fc44b78db5aeef36286a
+      ID: -441015837
+      Name: Ventosa
+      Path: Default Work Unit\Personaggi\Sir Eal\Ventosa
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Personaggi
+        ObjectType: 4
+      - ElementName: Sir Eal
+        ObjectType: 4
+      - ElementName: Ventosa
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  ExpandedItems:
+  - /Moleficent
+  - /Moleficent/Events
+  - /Moleficent/Events/Default Work Unit
+  - /Moleficent/Events/Default Work Unit/Ambiente
+  - /Moleficent/SoundBanks
+  - /Moleficent/SoundBanks/Default Work Unit
+  - /Moleficent/Switches
+  - /Moleficent/Switches/Default Work Unit
+  - /Moleficent/Switches/Default Work Unit/Passi
+  - /Moleficent/Switches/Default Work Unit/Salti
+  language: English(US)
+  lowerPoolSize: 2048
+  m_lastPopulateTimePart2: 0
+  m_lastPopulateTimePsrt1: 0
+  memoryCutoffThreshold: 0.95
+  preparePoolSize: 0
+  RtpcWwu:
+  - Guid: '{67ED7E85-9CB4-4EE3-88D3-DA878DC94924}'
+    m_lastTimePart2: -1999254602
+    m_lastTimePsrt1: 1465625641
+    ParentPhysicalPath: 
+    PhysicalPath: Game Parameters\Default Work Unit.wwu
+    List: []
+  - Guid: '{3B167755-FB42-458B-98BF-96F557AFB3B9}'
+    m_lastTimePart2: -1999254603
+    m_lastTimePsrt1: -992677336
+    ParentPhysicalPath: 
+    PhysicalPath: Game Parameters\Factory SoundSeed Air Game Syncs.wwu
+    List:
+    - Guid: 59062ef746431c4ea1b1dab46a05101e
+      ID: 1351367891
+      Name: SS_Air_Fear
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Fear
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Fear
+        ObjectType: 13
+    - Guid: 37fe2d2f9e4f944d83d853cca39781ad
+      ID: -1292209176
+      Name: SS_Air_Freefall
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Freefall
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Freefall
+        ObjectType: 13
+    - Guid: dc79aea23acaba4696529986c322a87b
+      ID: 1029930033
+      Name: SS_Air_Fury
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Fury
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Fury
+        ObjectType: 13
+    - Guid: 45b4e209a3c47f44b3ca818a1d925ef7
+      ID: -1646418679
+      Name: SS_Air_Month
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Month
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Month
+        ObjectType: 13
+    - Guid: 1a81b7e32f7b0f49b44f5fe51b468041
+      ID: -447042342
+      Name: SS_Air_Presence
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Presence
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Presence
+        ObjectType: 13
+    - Guid: ab9048a3d5b92645a64d5290c43ef2dc
+      ID: 822163944
+      Name: SS_Air_RPM
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_RPM
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_RPM
+        ObjectType: 13
+    - Guid: efeb291393a12e47a38c64668b494879
+      ID: -1220270574
+      Name: SS_Air_Size
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Size
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Size
+        ObjectType: 13
+    - Guid: db8c3fe9d1063747acaf7cd44bbed783
+      ID: -579304704
+      Name: SS_Air_Storm
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Storm
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Storm
+        ObjectType: 13
+    - Guid: 2ca76f537e8c8b4cae03ef34fdadc314
+      ID: -1091570167
+      Name: SS_Air_TimeOfDay
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_TimeOfDay
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_TimeOfDay
+        ObjectType: 13
+    - Guid: 197ba8edaa73a0409f192073606db710
+      ID: -134719478
+      Name: SS_Air_Turbulence
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Turbulence
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Turbulence
+        ObjectType: 13
+  StateWwu:
+  - Guid: '{81874098-9B65-47F0-ACE8-5561F659C4F9}'
+    m_lastTimePart2: -1999254602
+    m_lastTimePsrt1: 1465427261
+    ParentPhysicalPath: 
+    PhysicalPath: States\Default Work Unit.wwu
+    List: []
+  streamingPoolSize: 1024
+  SwitchWwu:
+  - Guid: '{AE1BCD4D-A356-45B1-A81A-AEC75BD5EE8F}'
+    m_lastTimePart2: -1999252986
+    m_lastTimePsrt1: -2107772735
+    ParentPhysicalPath: 
+    PhysicalPath: Switches\Default Work Unit.wwu
+    List:
+    - Guid: 6874335ea29f7143b0743cbf1f2e5e97
+      ID: -1067173173
+      Name: Passi
+      Path: Default Work Unit\Passi
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Passi
+        ObjectType: 11
+      ValueGuids:
+      - bytes: 27115458821039439ab6beae443a7ff3
+      - bytes: 357529165b57e542b88e4f9300e4176e
+      - bytes: 9b88853f0b03634685f92e80efc85877
+      - bytes: 095a0dacf5b4354d9c66c194a123ce07
+      ValueIcons:
+      - ElementName: Sir_Bean
+        ObjectType: 10
+      - ElementName: Sir_Eal
+        ObjectType: 10
+      - ElementName: Sir_Loin
+        ObjectType: 10
+      - ElementName: Sir_Sage
+        ObjectType: 10
+      valueIDs: a603ef7376789f98c609ceab88e609b4
+      values:
+      - Sir_Bean
+      - Sir_Eal
+      - Sir_Loin
+      - Sir_Sage
+    - Guid: 8d79b5be30a428409ca39a64b247989b
+      ID: -1346528306
+      Name: Salti
+      Path: Default Work Unit\Salti
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Salti
+        ObjectType: 11
+      ValueGuids:
+      - bytes: 6359bc37ac47fe48856d546f04b972df
+      - bytes: a19201f634e08d4eb94cdf7a9c1028cd
+      - bytes: d68086b7db26a542916cadde33f2adc0
+      - bytes: d9b2000dfd8e3b4bafa5481d1b267ab6
+      ValueIcons:
+      - ElementName: Sir_Bean
+        ObjectType: 10
+      - ElementName: Sir_Eal
+        ObjectType: 10
+      - ElementName: Sir_Loin
+        ObjectType: 10
+      - ElementName: Sir_Sage
+        ObjectType: 10
+      valueIDs: a603ef7376789f98c609ceab88e609b4
+      values:
+      - Sir_Bean
+      - Sir_Eal
+      - Sir_Loin
+      - Sir_Sage
+  TriggerWwu:
+  - Guid: '{E084A085-44FB-4C07-8F7C-5327E84A5CE0}'
+    m_lastTimePart2: -1999254602
+    m_lastTimePsrt1: 1465184203
+    ParentPhysicalPath: 
+    PhysicalPath: Triggers\Default Work Unit.wwu
+    List: []

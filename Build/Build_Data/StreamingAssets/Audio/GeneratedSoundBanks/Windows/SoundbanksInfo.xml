@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="128">
+	<RootPaths>
+		<ProjectRoot>C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\mling\Documents\UNIMI\Online Game Design\MoleficentWwise\Moleficent\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="782826392" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Default</ObjectPath>
+			<ShortName>Default</ShortName>
+			<Path>Default.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3902314931" Name="Atterraggi" ObjectPath="\Events\Default Work Unit\Personaggi\Atterraggi"/>
+				<Event Id="3836892613" Name="Boing_Pancia" ObjectPath="\Events\Default Work Unit\Personaggi\Sir Sage\Boing_Pancia"/>
+				<Event Id="3541152385" Name="Goccie_Acqua" ObjectPath="\Events\Default Work Unit\Ambiente\Goccie_Acqua"/>
+				<Event Id="3347263127" Name="Grano_Crescita" ObjectPath="\Events\Default Work Unit\Personaggi\Sir Eal\Grano\Grano_Crescita"/>
+				<Event Id="4100836337" Name="Grano_Taglio" ObjectPath="\Events\Default Work Unit\Personaggi\Sir Eal\Grano\Grano_Taglio"/>
+				<Event Id="3227794123" Name="Passi" ObjectPath="\Events\Default Work Unit\Personaggi\Passi"/>
+				<Event Id="1777441883" Name="Peto" ObjectPath="\Events\Default Work Unit\Personaggi\Sir Bean\Peto"/>
+				<Event Id="2269520994" Name="Ritrovamento_Chiave" ObjectPath="\Events\Default Work Unit\Ambiente\Ritrovamento_Chiave"/>
+				<Event Id="2948438990" Name="Salti" ObjectPath="\Events\Default Work Unit\Personaggi\Salti"/>
+				<Event Id="2765482635" Name="Sforzo_breve" ObjectPath="\Events\Default Work Unit\Personaggi\Sir Bean\Sforzo_breve"/>
+				<Event Id="1419287282" Name="Sforzo_lungo" ObjectPath="\Events\Default Work Unit\Personaggi\Sir Bean\Sforzo_lungo"/>
+				<Event Id="521524025" Name="Sforzo_lungo_fine" ObjectPath="\Events\Default Work Unit\Personaggi\Sir Bean\Sforzo_lungo_fine" MaxAttenuation="0.000000"/>
+				<Event Id="1904864132" Name="Torce" ObjectPath="\Events\Default Work Unit\Ambiente\Torce" MaxAttenuation="0.000000"/>
+				<Event Id="3853951459" Name="Ventosa" ObjectPath="\Events\Default Work Unit\Personaggi\Sir Eal\Ventosa"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="639444" Language="SFX">
+					<ShortName>SaltoEal_3.wav</ShortName>
+					<Path>SFX\SaltoEal_3_1C9C67B2.wem</Path>
+				</File>
+				<File Id="4356124" Language="SFX">
+					<ShortName>TaglioGrano_4.wav</ShortName>
+					<Path>SFX\TaglioGrano_4_1C9C67B2.wem</Path>
+				</File>
+				<File Id="6031828" Language="SFX">
+					<ShortName>SaltoBean_12.wav</ShortName>
+					<Path>SFX\SaltoBean_12_1C9C67B2.wem</Path>
+				</File>
+				<File Id="8936933" Language="SFX">
+					<ShortName>vestitismall_11.wav</ShortName>
+					<Path>SFX\vestitismall_11_1C9C67B2.wem</Path>
+				</File>
+				<File Id="9569976" Language="SFX">
+					<ShortName>SaltoBean_4.wav</ShortName>
+					<Path>SFX\SaltoBean_4_1C9C67B2.wem</Path>
+				</File>
+				<File Id="18602550" Language="SFX">
+					<ShortName>Boing_Si.wav</ShortName>
+					<Path>SFX\Boing_Si_1C9C67B2.wem</Path>
+				</File>
+				<File Id="31959708" Language="SFX">
+					<ShortName>vestitismall_5.wav</ShortName>
+					<Path>SFX\vestitismall_5_1C9C67B2.wem</Path>
+				</File>
+				<File Id="45269015" Language="SFX">
+					<ShortName>CrescitaGrano_3.wav</ShortName>
+					<Path>SFX\CrescitaGrano_3_1C9C67B2.wem</Path>
+				</File>
+				<File Id="78258501" Language="SFX">
+					<ShortName>Boing_Mi.wav</ShortName>
+					<Path>SFX\Boing_Mi_1C9C67B2.wem</Path>
+				</File>
+				<File Id="95140214" Language="SFX">
+					<ShortName>Boing_Sol.wav</ShortName>
+					<Path>SFX\Boing_Sol_1C9C67B2.wem</Path>
+				</File>
+				<File Id="97555634" Language="SFX">
+					<ShortName>SaltoBean_6.wav</ShortName>
+					<Path>SFX\SaltoBean_6_1C9C67B2.wem</Path>
+				</File>
+				<File Id="120234958" Language="SFX">
+					<ShortName>Peto_8.wav</ShortName>
+					<Path>SFX\Peto_8_1C9C67B2.wem</Path>
+				</File>
+				<File Id="128457977" Language="SFX">
+					<ShortName>SaltoEal_5.wav</ShortName>
+					<Path>SFX\SaltoEal_5_1C9C67B2.wem</Path>
+				</File>
+				<File Id="134488737" Language="SFX">
+					<ShortName>SaltoBean_9.wav</ShortName>
+					<Path>SFX\SaltoBean_9_1C9C67B2.wem</Path>
+				</File>
+				<File Id="138196465" Language="SFX">
+					<ShortName>SaltoEal_1.wav</ShortName>
+					<Path>SFX\SaltoEal_1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="141032299" Language="SFX">
+					<ShortName>SirBeanStep_4.wav</ShortName>
+					<Path>SFX\SirBeanStep_4_1C9C67B2.wem</Path>
+				</File>
+				<File Id="157079243" Language="SFX">
+					<ShortName>vestitismall_6.wav</ShortName>
+					<Path>SFX\vestitismall_6_1C9C67B2.wem</Path>
+				</File>
+				<File Id="181779928" Language="SFX">
+					<ShortName>vestitismall_2.wav</ShortName>
+					<Path>SFX\vestitismall_2_1C9C67B2.wem</Path>
+				</File>
+				<File Id="202093492" Language="SFX">
+					<ShortName>TaglioGrano_5.wav</ShortName>
+					<Path>SFX\TaglioGrano_5_1C9C67B2.wem</Path>
+				</File>
+				<File Id="210095071" Language="SFX">
+					<ShortName>SaltoEal_7.wav</ShortName>
+					<Path>SFX\SaltoEal_7_1C9C67B2.wem</Path>
+				</File>
+				<File Id="210106006" Language="SFX">
+					<ShortName>vestitismall_12.wav</ShortName>
+					<Path>SFX\vestitismall_12_1C9C67B2.wem</Path>
+				</File>
+				<File Id="234416017" Language="SFX">
+					<ShortName>SaltoEal_4.wav</ShortName>
+					<Path>SFX\SaltoEal_4_1C9C67B2.wem</Path>
+				</File>
+				<File Id="238765922" Language="SFX">
+					<ShortName>Sforzobreve_3.wav</ShortName>
+					<Path>SFX\Sforzobreve_3_1C9C67B2.wem</Path>
+				</File>
+				<File Id="242620592" Language="SFX">
+					<ShortName>waterdrops_2.wav</ShortName>
+					<Path>SFX\waterdrops_2_1C9C67B2.wem</Path>
+				</File>
+				<File Id="255815763" Language="SFX">
+					<ShortName>Peto_6.wav</ShortName>
+					<Path>SFX\Peto_6_1C9C67B2.wem</Path>
+				</File>
+				<File Id="259979502" Language="SFX">
+					<ShortName>Sforzolungo_2.wav</ShortName>
+					<Path>SFX\Sforzolungo_2_1C9C67B2.wem</Path>
+				</File>
+				<File Id="276695556" Language="SFX">
+					<ShortName>SirBeanStep_6.wav</ShortName>
+					<Path>SFX\SirBeanStep_6_1C9C67B2.wem</Path>
+				</File>
+				<File Id="283061558" Language="SFX">
+					<ShortName>Key.wav</ShortName>
+					<Path>SFX\Key_1C9C67B2.wem</Path>
+				</File>
+				<File Id="284019861" Language="SFX">
+					<ShortName>Ventosa_5.wav</ShortName>
+					<Path>SFX\Ventosa_5_1C9C67B2.wem</Path>
+				</File>
+				<File Id="296839226" Language="SFX">
+					<ShortName>SirBeanStep_3.wav</ShortName>
+					<Path>SFX\SirBeanStep_3_1C9C67B2.wem</Path>
+				</File>
+				<File Id="352880509" Language="SFX">
+					<ShortName>SirBeanStep_8.wav</ShortName>
+					<Path>SFX\SirBeanStep_8_1C9C67B2.wem</Path>
+				</File>
+				<File Id="357163515" Language="SFX">
+					<ShortName>TaglioGrano_2.wav</ShortName>
+					<Path>SFX\TaglioGrano_2_1C9C67B2.wem</Path>
+				</File>
+				<File Id="358608523" Language="SFX">
+					<ShortName>Peto_7.wav</ShortName>
+					<Path>SFX\Peto_7_1C9C67B2.wem</Path>
+				</File>
+				<File Id="392033164" Language="SFX">
+					<ShortName>Sforzobreve_7.wav</ShortName>
+					<Path>SFX\Sforzobreve_7_1C9C67B2.wem</Path>
+				</File>
+				<File Id="400944916" Language="SFX">
+					<ShortName>Ventosa_4.wav</ShortName>
+					<Path>SFX\Ventosa_4_1C9C67B2.wem</Path>
+				</File>
+				<File Id="441747057" Language="SFX">
+					<ShortName>TaglioGrano_6.wav</ShortName>
+					<Path>SFX\TaglioGrano_6_1C9C67B2.wem</Path>
+				</File>
+				<File Id="463854134" Language="SFX">
+					<ShortName>waterdrops_3.wav</ShortName>
+					<Path>SFX\waterdrops_3_1C9C67B2.wem</Path>
+				</File>
+				<File Id="466776643" Language="SFX">
+					<ShortName>SaltoBean_8.wav</ShortName>
+					<Path>SFX\SaltoBean_8_1C9C67B2.wem</Path>
+				</File>
+				<File Id="469478817" Language="SFX">
+					<ShortName>SaltoEal_6.wav</ShortName>
+					<Path>SFX\SaltoEal_6_1C9C67B2.wem</Path>
+				</File>
+				<File Id="476602827" Language="SFX">
+					<ShortName>Sforzobreve_4.wav</ShortName>
+					<Path>SFX\Sforzobreve_4_1C9C67B2.wem</Path>
+				</File>
+				<File Id="481551283" Language="SFX">
+					<ShortName>SirBeanStep_7.wav</ShortName>
+					<Path>SFX\SirBeanStep_7_1C9C67B2.wem</Path>
+				</File>
+				<File Id="492172020" Language="SFX">
+					<ShortName>Sforzobreve_9.wav</ShortName>
+					<Path>SFX\Sforzobreve_9_1C9C67B2.wem</Path>
+				</File>
+				<File Id="494494314" Language="SFX">
+					<ShortName>SaltoEal_9.wav</ShortName>
+					<Path>SFX\SaltoEal_9_1C9C67B2.wem</Path>
+				</File>
+				<File Id="501978033" Language="SFX">
+					<ShortName>Ventosa_1.wav</ShortName>
+					<Path>SFX\Ventosa_1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="526801760" Language="SFX">
+					<ShortName>SaltoBean_11.wav</ShortName>
+					<Path>SFX\SaltoBean_11_1C9C67B2.wem</Path>
+				</File>
+				<File Id="528194442" Language="SFX">
+					<ShortName>Peto_5.wav</ShortName>
+					<Path>SFX\Peto_5_1C9C67B2.wem</Path>
+				</File>
+				<File Id="546506893" Language="SFX">
+					<ShortName>vestitismall_3.wav</ShortName>
+					<Path>SFX\vestitismall_3_1C9C67B2.wem</Path>
+				</File>
+				<File Id="580153745" Language="SFX">
+					<ShortName>Sforzolungo_3.wav</ShortName>
+					<Path>SFX\Sforzolungo_3_1C9C67B2.wem</Path>
+				</File>
+				<File Id="582295508" Language="SFX">
+					<ShortName>CrescitaGrano_1.wav</ShortName>
+					<Path>SFX\CrescitaGrano_1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="628303322" Language="SFX">
+					<ShortName>SirBeanStep_5.wav</ShortName>
+					<Path>SFX\SirBeanStep_5_1C9C67B2.wem</Path>
+				</File>
+				<File Id="647372250" Language="SFX">
+					<ShortName>SirBeanStep_1.wav</ShortName>
+					<Path>SFX\SirBeanStep_1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="658612406" Language="SFX">
+					<ShortName>Peto_1.wav</ShortName>
+					<Path>SFX\Peto_1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="661653349" Language="SFX">
+					<ShortName>Ventosa_2.wav</ShortName>
+					<Path>SFX\Ventosa_2_1C9C67B2.wem</Path>
+				</File>
+				<File Id="665396447" Language="SFX">
+					<ShortName>Peto_4.wav</ShortName>
+					<Path>SFX\Peto_4_1C9C67B2.wem</Path>
+				</File>
+				<File Id="690574691" Language="SFX">
+					<ShortName>CrescitaGrano_2.wav</ShortName>
+					<Path>SFX\CrescitaGrano_2_1C9C67B2.wem</Path>
+				</File>
+				<File Id="723385192" Language="SFX">
+					<ShortName>SaltoBean_7.wav</ShortName>
+					<Path>SFX\SaltoBean_7_1C9C67B2.wem</Path>
+				</File>
+				<File Id="749995772" Language="SFX">
+					<ShortName>SaltoBean_5.wav</ShortName>
+					<Path>SFX\SaltoBean_5_1C9C67B2.wem</Path>
+				</File>
+				<File Id="764065598" Language="SFX">
+					<ShortName>SaltoEal_2.wav</ShortName>
+					<Path>SFX\SaltoEal_2_1C9C67B2.wem</Path>
+				</File>
+				<File Id="774848335" Language="SFX">
+					<ShortName>SirBeanStep_9.wav</ShortName>
+					<Path>SFX\SirBeanStep_9_1C9C67B2.wem</Path>
+				</File>
+				<File Id="793137592" Language="SFX">
+					<ShortName>vestitismall_10.wav</ShortName>
+					<Path>SFX\vestitismall_10_1C9C67B2.wem</Path>
+				</File>
+				<File Id="795840598" Language="SFX">
+					<ShortName>TaglioGrano_3.wav</ShortName>
+					<Path>SFX\TaglioGrano_3_1C9C67B2.wem</Path>
+				</File>
+				<File Id="798671257" Language="SFX">
+					<ShortName>Sforzolungo_4.wav</ShortName>
+					<Path>SFX\Sforzolungo_4_1C9C67B2.wem</Path>
+				</File>
+				<File Id="811529927" Language="SFX">
+					<ShortName>SaltoBean_10.wav</ShortName>
+					<Path>SFX\SaltoBean_10_1C9C67B2.wem</Path>
+				</File>
+				<File Id="815707751" Language="SFX">
+					<ShortName>Sforzolungo_1.wav</ShortName>
+					<Path>SFX\Sforzolungo_1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="819973106" Language="SFX">
+					<ShortName>vestitismall_8.wav</ShortName>
+					<Path>SFX\vestitismall_8_1C9C67B2.wem</Path>
+				</File>
+				<File Id="846605642" Language="SFX">
+					<ShortName>Peto_2.wav</ShortName>
+					<Path>SFX\Peto_2_1C9C67B2.wem</Path>
+				</File>
+				<File Id="857711969" Language="SFX">
+					<ShortName>Ventosa_3.wav</ShortName>
+					<Path>SFX\Ventosa_3_1C9C67B2.wem</Path>
+				</File>
+				<File Id="864035563" Language="SFX">
+					<ShortName>Sforzolungo_6.wav</ShortName>
+					<Path>SFX\Sforzolungo_6_1C9C67B2.wem</Path>
+				</File>
+				<File Id="875360986" Language="SFX">
+					<ShortName>SaltoEal_8.wav</ShortName>
+					<Path>SFX\SaltoEal_8_1C9C67B2.wem</Path>
+				</File>
+				<File Id="886093577" Language="SFX">
+					<ShortName>Peto_3.wav</ShortName>
+					<Path>SFX\Peto_3_1C9C67B2.wem</Path>
+				</File>
+				<File Id="900334172" Language="SFX">
+					<ShortName>vestitismall_1.wav</ShortName>
+					<Path>SFX\vestitismall_1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="917982269" Language="SFX">
+					<ShortName>Sforzobreve_5.wav</ShortName>
+					<Path>SFX\Sforzobreve_5_1C9C67B2.wem</Path>
+				</File>
+				<File Id="918876417" Language="SFX">
+					<ShortName>Sforzobreve_2.wav</ShortName>
+					<Path>SFX\Sforzobreve_2_1C9C67B2.wem</Path>
+				</File>
+				<File Id="925363965" Language="SFX">
+					<ShortName>vestitismall_7.wav</ShortName>
+					<Path>SFX\vestitismall_7_1C9C67B2.wem</Path>
+				</File>
+				<File Id="934763474" Language="SFX">
+					<ShortName>vestitismall_9.wav</ShortName>
+					<Path>SFX\vestitismall_9_1C9C67B2.wem</Path>
+				</File>
+				<File Id="935310855" Language="SFX">
+					<ShortName>Sforzobreve_8.wav</ShortName>
+					<Path>SFX\Sforzobreve_8_1C9C67B2.wem</Path>
+				</File>
+				<File Id="941749061" Language="SFX">
+					<ShortName>waterdrops_1.wav</ShortName>
+					<Path>SFX\waterdrops_1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="957445094" Language="SFX">
+					<ShortName>TaglioGrano_1.wav</ShortName>
+					<Path>SFX\TaglioGrano_1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="961636692" Language="SFX">
+					<ShortName>Sforzolungo_5.wav</ShortName>
+					<Path>SFX\Sforzolungo_5_1C9C67B2.wem</Path>
+				</File>
+				<File Id="964141494" Language="SFX">
+					<ShortName>CrescitaGrano_4.wav</ShortName>
+					<Path>SFX\CrescitaGrano_4_1C9C67B2.wem</Path>
+				</File>
+				<File Id="969816008" Language="SFX">
+					<ShortName>SaltoBean_3.wav</ShortName>
+					<Path>SFX\SaltoBean_3_1C9C67B2.wem</Path>
+				</File>
+				<File Id="981218214" Language="SFX">
+					<ShortName>Sforzobreve_1.wav</ShortName>
+					<Path>SFX\Sforzobreve_1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="990294658" Language="SFX">
+					<ShortName>Boing.wav</ShortName>
+					<Path>SFX\Boing_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1002321974" Language="SFX">
+					<ShortName>Sforzobreve_6.wav</ShortName>
+					<Path>SFX\Sforzobreve_6_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1009219842" Language="SFX">
+					<ShortName>SaltoBean_2.wav</ShortName>
+					<Path>SFX\SaltoBean_2_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1020264983" Language="SFX">
+					<ShortName>waterdrops_4.wav</ShortName>
+					<Path>SFX\waterdrops_4_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1027739239" Language="SFX">
+					<ShortName>Peto_9.wav</ShortName>
+					<Path>SFX\Peto_9_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1049544355" Language="SFX">
+					<ShortName>SaltoBean_1.wav</ShortName>
+					<Path>SFX\SaltoBean_1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1052096845" Language="SFX">
+					<ShortName>Peto_10.wav</ShortName>
+					<Path>SFX\Peto_10_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1072165408" Language="SFX">
+					<ShortName>vestitismall_4.wav</ShortName>
+					<Path>SFX\vestitismall_4_1C9C67B2.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
