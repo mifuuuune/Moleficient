@@ -149,7 +149,7 @@ public class HenDecisionTree : MonoBehaviour {
 
     private void CatchUp()
     {
-        agent.speed = 4f;
+        agent.speed = Rooster.GetComponent<NavMeshAgent>().speed;
         agent.SetDestination(Rooster.transform.position);
         //transform.rotation = Quaternion.LookRotation(Rooster.transform.position - transform.position);
         //transform.position = Vector3.MoveTowards(transform.position, Rooster.transform.position, HensParametersManager.HenSpeed * Time.deltaTime);

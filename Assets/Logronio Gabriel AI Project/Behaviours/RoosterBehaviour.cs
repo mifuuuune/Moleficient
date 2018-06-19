@@ -15,10 +15,10 @@ public class RoosterBehaviour : MonoBehaviour {
     private Collider[] NearbyPlayers = new Collider[4];
 
     private GameObject CurrentTarget;
-    private Vector3 CurrentDestination;
+    public Vector3 CurrentDestination;
 
     private float ResettingTimer = 0f;
-    private float RoamingTimer = 0f;
+    public float RoamingTimer = 0f;
 	private float VulnerableTimer = 0f;
 	private float AttackingTimer = 0f;
     public float WalkingTime = 7;
@@ -28,14 +28,14 @@ public class RoosterBehaviour : MonoBehaviour {
 
 	private float FOWRange = 5f;
 	private float FOWAngle = 110f;
-	private float VisionRange = 15f;
+	private float VisionRange = 8f;
 
     // Use this for initialization
     void Start () {
 
         agent = GetComponent<NavMeshAgent>();
         anim = GetComponent<Animator>();
-        CurrentDestination = transform.position;
+        CurrentDestination = Vector3.zero;
         CurrentTarget = null;
         CurrentState = RoosterStates.ROAMING;
 
@@ -47,11 +47,16 @@ public class RoosterBehaviour : MonoBehaviour {
 
 		if (CurrentState != RoosterStates.VULNERABLE) {
             if (CurrentState == RoosterStates.RESETTING)
+            {
                 ResettingState();
-            if (CurrentState == RoosterStates.CHASING && CanSee (CurrentTarget))
-				ChasingState ();
-			if (CurrentState == RoosterStates.ROAMING)
-				RoamingState ();
+                return;
+            }
+            if (CurrentState == RoosterStates.CHASING && CanSee(CurrentTarget))
+            {
+                ChasingState();
+                return;
+            }
+			RoamingState ();
 		} else {
 			VulnerableState ();
 		}
@@ -59,8 +64,9 @@ public class RoosterBehaviour : MonoBehaviour {
 
     public void Alarm(GameObject target)
     {
-        CurrentTarget = target;
-		CurrentState = RoosterStates.CHASING;
+        CurrentDestination = target.transform.position;
+        RoamingTimer = 0.1f;
+        CurrentState = RoosterStates.ROAMING;
     }
 
     public void ChasingState()
@@ -83,6 +89,7 @@ public class RoosterBehaviour : MonoBehaviour {
 
 	public void Trap(){
 		CurrentState = RoosterStates.VULNERABLE;
+        anim.SetBool("Walking", false);
 		anim.SetBool ("Vulnerable", true);
 	}
 
@@ -103,25 +110,18 @@ public class RoosterBehaviour : MonoBehaviour {
 
 			if (AttackingTimer > 3f) {
 
-				anim.SetBool ("Vulnerable", false);
-				AttackingTimer = 0f;
-				VulnerableTimer = 0f;
-				CurrentState = RoosterStates.ROAMING;
 				Lives--;
-				if (Lives == 0) {
+
+                if (Lives == 0) {
 					//GG;
 				} else {
 					PushBack (false);
-				}
+                }
 			}
 						
 		} else {
-			anim.SetBool ("Vulnerable", false);
-			VulnerableTimer = 0f;
-			CurrentState = RoosterStates.ROAMING;
 			PushBack (true);
-			//Spinge tutti via e toglie una vita ai giocatori
-		}
+        }
 	
 	}
 
@@ -129,19 +129,19 @@ public class RoosterBehaviour : MonoBehaviour {
     {
         CurrentState = RoosterStates.RESETTING;
         ResettingTimer += Time.deltaTime;
-        if (ResettingTimer <= 0.5f)
+        if (ResettingTimer <= 0.8f)
         {
             anim.SetBool("Walking", false);
             agent.SetDestination(transform.position);
 
         }
-        if (ResettingTimer > 1f && ResettingTimer < 12f)
+        else if (ResettingTimer > 1.2f && ResettingTimer < 12f)
         {
             anim.SetBool("Walking", true);
             agent.speed = 8.5f;
             agent.SetDestination(CurrentDestination);
         }
-        if (ResettingTimer >= 12f)
+        else if (ResettingTimer >= 12f)
         {
             ResettingTimer = 0f;
             CurrentState = RoosterStates.ROAMING;
@@ -160,20 +160,22 @@ public class RoosterBehaviour : MonoBehaviour {
 			//}
 				
 		}
-        int RandomDestination = Random.Range(0, 4);
-        switch (RandomDestination)
+
+        anim.SetBool("Vulnerable", false);
+        AttackingTimer = 0f;
+        VulnerableTimer = 0f;
+        ResettingTimer = 0f;
+
+        switch (Lives)
         {
-            case 0: CurrentDestination = new Vector3(85f, 0, 85f); break;
+            case 3: CurrentDestination = new Vector3(30f, 0, -30f); break;
 
-            case 1: CurrentDestination = new Vector3(-85f, 0, 85f); break;
+            case 2: CurrentDestination = new Vector3(30f, 0, 30f); break;
 
-            case 2: CurrentDestination = new Vector3(85f, 0, -85f); break;
-
-            case 3: CurrentDestination = new Vector3(-85f, 0, -85f); break;
+            case 1: CurrentDestination = new Vector3(-30f, 0, -30f); break;
 
         }
         CurrentState = RoosterStates.RESETTING;
-
     }
 
     public void Attack()
@@ -188,12 +190,12 @@ public class RoosterBehaviour : MonoBehaviour {
     {
         CurrentState = RoosterStates.ROAMING;
 
-		if (EnemyInFOW()) {
+		/*if (EnemyInFOW()) {
 			
 			CurrentState = RoosterStates.CHASING;
 			return;
 
-		} else {
+		} else {*/
 			
 			if(RoamingTimer < WalkingTime + WaitingTime)
 			{
@@ -203,10 +205,25 @@ public class RoosterBehaviour : MonoBehaviour {
 			if (RoamingTimer >= WalkingTime + WaitingTime)
 			{
 				anim.SetBool("Walking", true);
-				float RandomX = Random.Range(-1f, 1f);
-				float RandomZ = Random.Range(-1f, 1f);
-				Vector3 CurrentDirection = new Vector3(RandomX, transform.position.y, RandomZ).normalized;
-				CurrentDestination = transform.position + CurrentDirection * 30;
+                int RandomDestination = Random.Range(0, 4);
+                switch (RandomDestination)
+                {
+                    case 0:
+                        CurrentDestination = new Vector3(20, 0, 20);
+                        break;
+
+                    case 1:
+                        CurrentDestination = new Vector3(-20, 0, 20);
+                        break;
+
+                    case 2:
+                        CurrentDestination = new Vector3(20, 0, -20);
+                        break;
+
+                    case 3:
+                        CurrentDestination = new Vector3(-20, 0, -20);
+                        break;
+                }
 				RoamingTimer = 0;
 			}
 			else if (RoamingTimer > WalkingTime && RoamingTimer < (WalkingTime + WaitingTime))
@@ -217,9 +234,8 @@ public class RoosterBehaviour : MonoBehaviour {
 
 			agent.speed = 1.5f;
 
-			Debug.DrawLine(transform.position, CurrentDestination, Color.green);
 			agent.SetDestination(CurrentDestination);
-		}
+		//}
 			
     }
 

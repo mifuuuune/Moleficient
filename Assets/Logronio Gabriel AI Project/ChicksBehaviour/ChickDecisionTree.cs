@@ -112,7 +112,8 @@ public class ChickDecisionTree : MonoBehaviour
                     if (Personality == ChickPersonalities.SISSY && Physics.OverlapSphereNonAlloc(transform.position, ChicksParametersManager.ChickFOV, NearbyHens, HensLayer) > 0)
                     {
                         NearestHen = FindNearest(NearbyHens);
-                        if (Vector3.Distance(NearestHen.transform.position, transform.position) > ChicksParametersManager.ChickDangerFOV)
+                        if (Vector3.Distance(NearestHen.transform.position, transform.position) 
+                            > ChicksParametersManager.ChickDangerFOV)
                         {
                             CurrentStatus = ChickStatus.FLEEING;
                             GetComponent<FleeBehaviour>().ExecuteBehaviour(NearbyHens);
@@ -138,7 +139,7 @@ public class ChickDecisionTree : MonoBehaviour
 
     private void CatchUp()
     {
-        agent.speed = 4f;
+        agent.speed = Rooster.GetComponent<NavMeshAgent>().speed;
         agent.SetDestination(Rooster.transform.position);
         //transform.rotation = Quaternion.LookRotation(Rooster.transform.position - transform.position);
         //transform.position = Vector3.MoveTowards(transform.position, Rooster.transform.position, HensParametersManager.HenSpeed * Time.deltaTime);
