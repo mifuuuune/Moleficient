@@ -125,6 +125,7 @@
     <Compile Include="Assets\Scripts\players controllers\TrampPush.cs" />
     <Compile Include="Assets\Scripts\PortalBehaviour.cs" />
     <Compile Include="Assets\Scripts\TextureTilingController.cs" />
+    <Compile Include="Assets\Scripts\TorchesBehaviour.cs" />
     <Compile Include="Assets\ServerList.cs" />
     <Compile Include="Assets\SpawnBoss.cs" />
     <Compile Include="Assets\test.cs" />

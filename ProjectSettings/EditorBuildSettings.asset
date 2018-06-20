@@ -9,18 +9,21 @@ EditorBuildSettings:
     path: Assets/Scenes/Lobby/Lobyy_GUI_2.unity
     guid: 5e516882bcf4c544b87a46cda1d55708
   - enabled: 1
+    path: Assets/Scenes/PlayGround.unity
+    guid: 86b4eed76e2ab3d4c88397a55ef6aa11
+  - enabled: 1
     path: Assets/Scenes/Level 1.unity
     guid: 59dfa93c9a0720744a4a2713e5729bef
+  - enabled: 1
+    path: Assets/Scenes/Game Level.unity
+    guid: 16b35eedb0b05f4458e9f5ea208a0090
   - enabled: 1
     path: Assets/Scenes/GrahannyStage1.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
     path: Assets/Scenes/GrahannyStage2.unity
+    guid: 7d654945a28db974c8d2736dd7522142
+  - enabled: 1
+    path: Assets/Scenes/GrahannyStage3.unity
     guid: 3d1fa6b0ba610be45803c2765206139a
-  - enabled: 1
-    path: Assets/Scenes/PlayGround.unity
-    guid: 86b4eed76e2ab3d4c88397a55ef6aa11
-  - enabled: 1
-    path: Assets/Scenes/Game Level.unity
-    guid: 16b35eedb0b05f4458e9f5ea208a0090
   m_configObjects: {}
