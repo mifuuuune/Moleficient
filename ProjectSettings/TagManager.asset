@@ -21,6 +21,8 @@ TagManager:
   - LambSpawner
   - Grahanny
   - Trampolino
+  - LobbyPLayer
+  - Room
   layers:
   - Default
   - TransparentFX

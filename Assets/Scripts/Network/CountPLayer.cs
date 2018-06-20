@@ -16,10 +16,12 @@ namespace Prototype.NetworkLobby
         private GameObject pg = null, pg2=null, pg3=null, pg4=null;
         //protected List<LobbyPlayer> _players = new List<LobbyPlayer>();
         //GameObject pllob = null;
+        public int public_num_players;
 
         public void Awake()
         {
             _instance = this;
+            public_num_players = 0;
         }
 
         public void SpawnLobbyPlayer(int player_num)
@@ -44,6 +46,8 @@ namespace Prototype.NetworkLobby
                 pg4 = GameObject.Instantiate<GameObject>(this.playerLobby4, new Vector3(2.365f, 0.02f, -1.639f), Quaternion.Euler(0, 180f, 0));
                 NetworkServer.Spawn(pg4);
             }
+            public_num_players = player_num;
+            BroadCaster.sigl.ChangePayload();
         }
 
         public void DespawnLobbyPlayer(int player_num)
@@ -72,6 +76,7 @@ namespace Prototype.NetworkLobby
                 //pg4 = GameObject.Instantiate<GameObject>(this.playerLobby4, new Vector3(2.365f, 0.02f, -1.639f), Quaternion.Euler(0, 180f, 0));
                 NetworkServer.UnSpawn(pg4);
             }
+            public_num_players = player_num;
         }
     }
 }

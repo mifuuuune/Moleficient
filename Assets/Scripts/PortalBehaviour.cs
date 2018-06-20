@@ -10,12 +10,14 @@ public class PortalBehaviour : NetworkBehaviour {
 	public void keyPickedUp()
     {
         count++;
+        Debug.Log(count);
         if (count == 3) RpcKeyPickedUp();
     }
 
     [ClientRpc]
     public void RpcKeyPickedUp()
     {
+        //Debug.Log("provo  devastare come i draghi steam");
         transform.GetComponent<ParticleSystem>().Play();
     }
 }

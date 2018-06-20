@@ -59,6 +59,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\BroadCaster.cs" />
     <Compile Include="Assets\EndGameManager.cs" />
     <Compile Include="Assets\GrahannyStage\AstarMovement.cs" />
     <Compile Include="Assets\GrahannyStage\BoardBehaviour.cs" />
@@ -85,6 +86,13 @@
     <Compile Include="Assets\Logronio Gabriel AI Project\Behaviours\TestBehaviours.cs" />
     <Compile Include="Assets\Logronio Gabriel AI Project\ChicksBehaviour\ChickDecisionTree.cs" />
     <Compile Include="Assets\Logronio Gabriel AI Project\ChicksBehaviour\ChicksParametersManager.cs" />
+    <Compile Include="Assets\Logronio Gabriel AI Project\Flocking\BoidBlending.cs" />
+    <Compile Include="Assets\Logronio Gabriel AI Project\Flocking\BoidComponent.cs" />
+    <Compile Include="Assets\Logronio Gabriel AI Project\Flocking\BoidShared.cs" />
+    <Compile Include="Assets\Logronio Gabriel AI Project\Flocking\BoidSpawner.cs" />
+    <Compile Include="Assets\Logronio Gabriel AI Project\Flocking\Delegates\BoidAlign.cs" />
+    <Compile Include="Assets\Logronio Gabriel AI Project\Flocking\Delegates\BoidCohesion.cs" />
+    <Compile Include="Assets\Logronio Gabriel AI Project\Flocking\Delegates\BoidSeparation.cs" />
     <Compile Include="Assets\Logronio Gabriel AI Project\HensBehaviour\HenDecisionTree.cs" />
     <Compile Include="Assets\Logronio Gabriel AI Project\HensBehaviour\HensParametersManager.cs" />
     <Compile Include="Assets\Logronio Gabriel AI Project\PlayerController.cs" />

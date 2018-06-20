@@ -28,7 +28,7 @@ namespace Prototype.NetworkLobby
         //usata oer gestire il match in caso di crash o di kick
         protected NetworkConnection connMole;
 
-        public void Awake()
+        public void Start()
         {
             s_Singleton = this;
             mole = UnityEngine.Random.Range(1, 4);
@@ -108,6 +108,15 @@ namespace Prototype.NetworkLobby
             //base.OnLobbyServerDisconnect(conn);
             player_num=0;
         }
+
+        public override void OnClientConnect(NetworkConnection connection)
+        {
+            
+            ClientScene.Ready(connection);
+            ClientScene.AddPlayer(0);
+
+        }
+
 
         public override void OnLobbyServerDisconnect(NetworkConnection conn)
         {
