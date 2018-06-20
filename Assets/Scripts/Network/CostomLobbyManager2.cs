@@ -70,7 +70,7 @@ namespace Prototype.NetworkLobby
                 }
             }
 
-            if (spawn_player == 2)
+            if (spawn_player == 4)
             {
                 myPlayer = Instantiate(player2, GameObject.Find("sir_eal_spawn").transform.position, Quaternion.identity) as GameObject;
                 if (mole == 2)
@@ -90,7 +90,7 @@ namespace Prototype.NetworkLobby
                     connMole = conn;
                 }
             }
-            if (spawn_player == 4)
+            if (spawn_player == 2)
             {
                 spawn_player = 0;
                 myPlayer = Instantiate(player4, GameObject.Find("sir_sage_spawn").transform.position, Quaternion.identity) as GameObject;
